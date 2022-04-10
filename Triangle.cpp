@@ -12,7 +12,7 @@ string Triangle::gettipe()
 
 void Triangle::setukuran(double alas, double tinggi)
 {
-	luas = 0.5*alas*tinggi;
+	luas = 0.5 * alas * tinggi;
 }
 
 double Triangle::getukuran()
@@ -41,7 +41,7 @@ void Triangle::enableObj()
 	status = true;
 }
 
-void Triangle::disableObjek()
+void Triangle::disableObj()
 {
 	status = false;
 }
