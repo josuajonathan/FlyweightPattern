@@ -10,7 +10,7 @@ public :
 	virtual string gettipe() = 0;
 
 	virtual void setukuran() = 0;
-	virtual int getukuran() = 0;
+	virtual double getukuran() = 0;
 
 	virtual void setKoord() = 0;
 	virtual int getKoordX() = 0;
